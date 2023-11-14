@@ -72,7 +72,7 @@ export default function Home() {
                             </div>
                         </div>
                         <input type="hidden" id="genres-input" name="MERGE3"/>
-                        <div className="link-button" onclick="document.getElementById('subscribe-form').submit()">Join Now</div>
+                        <div className="link-button">Join Now</div>
                     </form>
                 </div>
             </div>
