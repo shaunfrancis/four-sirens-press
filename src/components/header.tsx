@@ -4,6 +4,8 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { useState } from 'react';
 
+import LogoIcon from '/public/logo-icon.png';
+
 const menuItems = [
     {name: "Home", href: "/"},
     {name: "Authors", href: "/authors"},
@@ -20,7 +22,7 @@ export default function Header(){
             <div id="header-container" className={ headerState ? "open" : "" }>
                 <div id="header-logo">
                     <a href="/">
-                    <Image src="/logo-icon.png" alt="Four Sirens Logo" width={50} height={53} priority />
+                    <Image src={LogoIcon} alt="Four Sirens Logo" width={50} height={53} />
                     </a>
                 </div>
                 <div id="header-mobile-hamburger" className="header-mobile" onClick={ () => { setHeaderState(true) } }>
