@@ -1,7 +1,12 @@
+import { Metadata } from 'next';
 import Image from 'next/image'
 import styles from './page.module.css'
 
 import AuthorCard from '@/components/author-card';
+
+export const metadata : Metadata = {
+    title: 'Authors | Four Sirens Press'
+}
 
 export default function Authors() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
-import { usePathname } from 'next/navigation';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
 import LogoIcon from '/public/logo-icon.png';

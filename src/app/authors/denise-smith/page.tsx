@@ -1,5 +1,11 @@
+import { Metadata } from 'next';
+
 import AuthorCard from '@/components/author-card';
 import BookCard from '@/components/book-card';
+
+export const metadata : Metadata = {
+    title: 'Denise Smith | Four Sirens Press'
+}
 
 export default function DeniseSmith(){
     return ( <>

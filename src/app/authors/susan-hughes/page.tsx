@@ -1,5 +1,11 @@
+import { Metadata } from 'next';
+
 import AuthorCard from '@/components/author-card';
 import BookCard from '@/components/book-card';
+
+export const metadata : Metadata = {
+    title: 'Susan Hughes | Four Sirens Press'
+}
 
 export default function SusanHughes(){
     return ( <>
@@ -12,7 +18,7 @@ export default function SusanHughes(){
         <BookCard title="The Taboo Murders" src="/the-taboo-murders.jpg">
             <div className="quote">
                 <p>Coronation Night, 1937</p>
-                <p>The coat check girl at the shady Taboo Club in London's West End is found dead with a belt around her neck. It looks like The Soho Strangler has clamed a fourth victim.</p>
+                <p>The coat check girl at the shady Taboo Club in London's West End is found dead with a belt around her neck. It looks like The Soho Strangler has claimed a fourth victim.</p>
                 <p>However, the violent death of another woman forces the police to recognise yet another killer is at work. One who is using The Taboo Club to select victims.</p>
                 <p>Ambitious police recruit, Vica Tempest, is out to make a name for herself. She agrees to undertake the dangerous role of decoy inside the club. Her job: to identify the perpetrator before they kill again.</p>
                 <p>If she fails, she could pay with her life.</p>

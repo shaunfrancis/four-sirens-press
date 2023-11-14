@@ -1,10 +1,9 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import { Merriweather, Open_Sans } from 'next/font/google'
 import './globals.css'
 
 import Header from '@/components/header';
-import BidefordHero from 'public/bideford-hero.jpg';
+import Banner from '@/components/banner';
 
 const merriweather = Merriweather({ weight: "400", subsets: ['latin'] });
 const openSans = Open_Sans({ subsets: ['latin'], variable: '--open-sans' });
@@ -18,9 +17,7 @@ export default function RootLayout( { children }: { children: React.ReactNode } 
     <html lang="en" className={openSans.variable}>
       <body className={merriweather.className}>
         <Header />
-        <div id="banner">
-          <Image src={BidefordHero} alt="Panoramic view of Bideford from East-the-Water" fill priority />
-        </div>
+        <Banner />
         {children}
       </body>
     </html>
