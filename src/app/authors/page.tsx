@@ -18,7 +18,7 @@ export default function Authors() {
             <p>Denise has always been an avid reader and since moving to North Devon has been able to devote time to her writing too. Denise's debut crime novel called <i>Never Forget, Never Forgive</i> was published on 1st October 2021 featuring private investigator Beatrice Styles.</p>
         </AuthorCard>
 
-        <AuthorCard forename="Beverley" surname="Carter" src="/beverley.jpg">
+        <AuthorCard forename="Beverley" surname="Carter" src="/beverley.jpg" link={false}>
             <p>Beverley lives in North Devon with her husband and Border Collie Sam. She is currently working on her first book, <i>In Trust</i>.</p>
         </AuthorCard>
     </main>

@@ -22,7 +22,7 @@ export default function Header(){
             <div id="header-container" className={ headerState ? "open" : "" }>
                 <div id="header-logo">
                     <a href="/">
-                    <Image src={LogoIcon} alt="Four Sirens Logo" width={50} height={53} />
+                    <Image src={LogoIcon} alt="Four Sirens Logo" width={50} height={53} priority />
                     </a>
                 </div>
                 <div id="header-mobile-hamburger" className="header-mobile" onClick={ () => { setHeaderState(true) } }>

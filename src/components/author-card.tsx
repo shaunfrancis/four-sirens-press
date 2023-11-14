@@ -1,9 +1,10 @@
 import Image from 'next/image';
 
 export default function AuthorCard( 
-    { forename, surname, src, children } : 
-    { forename : string, surname : string, src : string, children : React.ReactNode } 
+    { forename, surname, src, link = true, children } : 
+    { forename : string, surname : string, src : string, link? : boolean, children : React.ReactNode } 
 ){
+    const target = `/authors/${forename.toLowerCase()}-${surname.toLowerCase()}`;
     return(       
         <section>
             <div className="split-section">
@@ -13,7 +14,7 @@ export default function AuthorCard(
                 <div className="split-section-item">
                     <h2>{forename} {surname}</h2>
                     {children}
-                    <a href="/authors/sharon-francis/"><div className="link-button">See {forename}'s page</div></a>
+                    { link ? ( <a href={target}><div className="link-button">See {forename}'s page</div></a> ) : "" }
                 </div>
             </div>
         </section>
