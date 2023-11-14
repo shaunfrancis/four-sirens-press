@@ -31,9 +31,9 @@ export default function Header(){
                 <nav>
                     <ul>
                         {
-                            menuItems.map( (data) => {
+                            menuItems.map( (data, i) => {
                                 return(
-                                    <li className={pathname == data.href ? "selected" : ""}>
+                                    <li key={i} className={pathname == data.href ? "selected" : ""}>
                                         <a href={data.href}>{data.name}</a>
                                     </li>
                                 )

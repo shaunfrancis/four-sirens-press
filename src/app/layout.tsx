@@ -5,7 +5,7 @@ import './globals.css'
 import Header from '@/components/header';
 import Banner from '@/components/banner';
 
-const merriweather = Merriweather({ weight: "400", subsets: ['latin'] });
+const merriweather = Merriweather({ weight: "400", subsets: ['latin'], variable: '--merriweather' });
 const openSans = Open_Sans({ subsets: ['latin'], variable: '--open-sans' });
 
 export const metadata: Metadata = {
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout( { children }: { children: React.ReactNode } ){
   return (
-    <html lang="en" className={openSans.variable}>
-      <body className={merriweather.className}>
+    <html lang="en" className={openSans.variable + " " + merriweather.variable}>
+      <body>
         <Header />
         <Banner />
         {children}
