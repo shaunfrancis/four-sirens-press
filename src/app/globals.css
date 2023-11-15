@@ -165,6 +165,13 @@ section.padded{
     cursor:pointer;
     background-color:rgb(227,227,227);
 }
+input.link-button{
+    -webkit-appearance:none;
+    appearance:none;
+    font-size:inherit;
+    width:unset;
+    border:none;
+}
 
 
 .quote{

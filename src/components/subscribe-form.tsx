@@ -20,6 +20,7 @@ export default function SubscribeForm(){
         const index = newChecked.indexOf(value);
         if(index != -1) newChecked.splice(newChecked.indexOf(value), 1);
         else newChecked.push(value);
+
         setChecked(newChecked);
     };
 
@@ -49,8 +50,8 @@ export default function SubscribeForm(){
                             })
                         }
                         </div>
-                        <input type="hidden" id="genres-input" name="MERGE3"/>
-                        <div className="link-button">Join Now</div>
+                        <input type="hidden" id="genres-input" name="MERGE3" value={ checked.join(";") }/>
+                        <input type="submit" className="link-button" value="Join Now" />
                     </form>
                 </div>
             </div>
