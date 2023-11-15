@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AuthorCard( 
     { forename, surname, src, link = true, children } : 
@@ -14,7 +15,7 @@ export default function AuthorCard(
                 <div className="split-section-item">
                     <h2>{forename} {surname}</h2>
                     {children}
-                    { link ? ( <a href={target}><div className="link-button">See {forename}'s page</div></a> ) : "" }
+                    { link && ( <Link href={target}><div className="link-button">See {forename}'s page</div></Link> ) }
                 </div>
             </div>
         </section>

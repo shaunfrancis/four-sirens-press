@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import styles from './page.module.css';
 
 import SubscribeForm from '@/components/subscribe-form';
+import ContactCard from '@/components/contact-card';
 
 export default function Home() {
   return (
@@ -35,15 +35,7 @@ export default function Home() {
         </section>
         
         <SubscribeForm />
-
-        <section>
-            <h2>Connect With Us</h2>
-            <div className="split-section fixed-height">
-                <div className="split-section-item fixed-width">
-                    <div className="fb-page" data-href="https://www.facebook.com/foursirenspress" data-tabs="timeline" data-width="450" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/foursirenspress" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/foursirenspress">Four Sirens Press</a></blockquote></div>
-                </div>
-            </div>
-        </section>
+        <ContactCard />
 
     </main>
   )

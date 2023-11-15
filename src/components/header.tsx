@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
@@ -21,9 +22,9 @@ export default function Header(){
         <header>
             <div id="header-container" className={ headerState ? "open" : "" }>
                 <div id="header-logo">
-                    <a href="/">
+                    <Link href="/">
                     <Image src={LogoIcon} alt="Four Sirens Logo" width={50} height={53} priority />
-                    </a>
+                    </Link>
                 </div>
                 <div id="header-mobile-hamburger" className="header-mobile" onClick={ () => { setHeaderState(true) } }>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
@@ -34,7 +35,7 @@ export default function Header(){
                             menuItems.map( (data, i) => {
                                 return(
                                     <li key={i} className={pathname == data.href ? "selected" : ""}>
-                                        <a href={data.href}>{data.name}</a>
+                                        <Link href={data.href}>{data.name}</Link>
                                     </li>
                                 )
                             })
