@@ -1,3 +1,3 @@
 # Four Sirens Press
 
-Website for Four Sirens Press publishing. Available at [foursirenspress.co.uk](https://foursirenspress.co.uk).
+Website for Four Sirens Press publishing. Rewritten in Next.js and deployed with Vercel; available at [foursirenspress.co.uk](https://foursirenspress.co.uk).
