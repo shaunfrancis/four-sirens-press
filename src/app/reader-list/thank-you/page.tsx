@@ -1,4 +1,9 @@
+import { Metadata } from 'next';
 import Image from 'next/image';
+
+export const metadata : Metadata = {
+    title: 'Thank You | Four Sirens Press'
+}
 
 export default function ThankYou() {
   return (

@@ -1,0 +1,9 @@
+.carousel{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.carousel img{
+    padding:0 10px;
+    object-fit:contain;
+}
