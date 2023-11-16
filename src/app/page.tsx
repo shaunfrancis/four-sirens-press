@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
         <div id="main-logo">
-        	<Image src="/logo-wide.svg" alt="Four Sirens Press" width={500} height={133} priority />
+        	<Image src="/logo-wide.svg" alt="Four Sirens Press" fill priority />
         </div>
 
         <section>

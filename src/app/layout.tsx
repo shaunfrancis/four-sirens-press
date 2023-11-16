@@ -9,7 +9,16 @@ const merriweather = Merriweather({ weight: "400", subsets: ['latin'], variable:
 const openSans = Open_Sans({ subsets: ['latin'], variable: '--open-sans' });
 
 export const metadata: Metadata = {
-  title: 'Four Sirens Press'
+    title: 'Four Sirens Press',
+    icons: {
+        icon: [
+            { url: '/favicons/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+            { url: '/favicons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+            { url: '/favicons/favicon-16x16.png', sizes: '32x32', type: 'image/png' }
+        ],
+        apple: [ { url: '/favicons/apple-touch-icon.png', sizes: '180x180' } ]
+    },
+    manifest: '/favicons/site.webmanifest'
 }
 
 export default function RootLayout( { children }: { children: React.ReactNode } ){

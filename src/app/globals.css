@@ -107,15 +107,18 @@ a{
   height:400px;
   position:relative;
   z-index:-1;
+  background-color:rgb(238,238,255);
 }
 #banner img{ object-fit: cover }
 
 #main-logo{
   width:calc(100% - 1em);
   max-width:500px;
+  height:150px;
   margin:4em auto;
   position:relative;
 }
+#main-logo img{ object-fit: contain }
 
 
 section{
@@ -161,6 +164,7 @@ section.padded{
 
 .link-button{
     padding:10px 15px;
+    margin:0 5px 0 0;
     display:inline-block;
     cursor:pointer;
     background-color:rgb(227,227,227);
@@ -236,4 +240,11 @@ form input{
     margin-left:10px;
     display:inline-block;
     vertical-align:middle;
+}
+
+
+@media only screen and (max-width: 875px){
+    .split-section{
+        flex-direction:column;   
+    }
 }
