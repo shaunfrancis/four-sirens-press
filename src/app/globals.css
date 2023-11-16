@@ -175,6 +175,9 @@ input.link-button{
     font-size:inherit;
     width:unset;
     border:none;
+    border-radius:0;
+    color:#000;
+    font-weight:400;
 }
 
 
