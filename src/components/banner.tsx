@@ -17,7 +17,7 @@ export default function Banner(){
 
     return (
         <div id="banner">
-            <Image src={image.src} alt={image.alt} fill priority />
+            <Image sizes="(max-width: 700px) 500vw, 200vw" src={image.src} alt={image.alt} fill priority />
         </div>
     )
 }
