@@ -35,7 +35,7 @@ export default function Header(){
                             menuItems.map( (data, i) => {
                                 return(
                                     <li key={i} className={pathname == data.href ? "selected" : ""}>
-                                        <Link href={data.href}>{data.name}</Link>
+                                        <Link href={data.href} onClick={ () => { setHeaderState(false) } }>{data.name}</Link>
                                     </li>
                                 )
                             })
