@@ -34,6 +34,10 @@ const books = [
         link: "https://www.amazon.co.uk/Bloodline-Sharon-Francis/dp/1838117385/"
     },
     {
+        title: "Twisted Roots", src: "/twisted-roots.jpg", genres: ["crime"],
+        link: "https://www.amazon.co.uk/Twisted-Hidden-Histories-Sharon-Francis/dp/B0CN31P4X9/"
+    },
+    {
         title: "A Kiss From France", src: "/a-kiss-from-france.jpg", genres: ["historic"],
         link: "https://www.amazon.co.uk/Kiss-France-Susan-Hughes-ebook/dp/B012W608GU"
     }
@@ -56,7 +60,7 @@ export default function Books() {
                             books.filter( book => book.genres.indexOf(genre.key) != -1 ).map( book => {
                                 return (
                                     <a href={book.link}>
-                                        <Image src={book.src} width={300} height={370} alt={book.title + " cover"} />
+                                        <Image src={book.src} width={275} height={370} alt={book.title + " cover"} />
                                     </a>
                                 )
                             })

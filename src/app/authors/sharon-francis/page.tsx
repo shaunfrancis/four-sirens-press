@@ -18,13 +18,25 @@ export default function SharonFrancis(){
                 <div className="link-button">Sharon's Facebook</div>
             </a>
         </AuthorCard>
+        <BookCard title="Twisted Roots" src="/twisted-roots.jpg">
+            <div className="quote">
+                <p>When Emily agrees to handle her late uncle's estate, it seems the perfect escape from her troubled marriage and her father's ill health. But as she delves deeper into her uncle's history, a troubling pattern of broken relationships and mysterious disappearances are revealed.</p>
+                <p>Driven to unearth the truth, the shocking revelations she uncovers are more sinister than Emily could ever have imagined.</p>
+                <p>What is the truth, and who can she trust?</p>
+            </div>
+            <p><i>Twisted Roots</i> was released in November 2023 on Amazon, and is available as an ebook or in paperback. This is the second in the <i>Hidden Histories</i> series.</p>
+            <a href="https://www.amazon.co.uk/Twisted-Hidden-Histories-Sharon-Francis/dp/B0CN31P4X9/" target="_blank">
+                <div className="link-button">Buy on Amazon</div>
+            </a>
+        </BookCard>
+
         <BookCard title="Bloodline" src="/bloodline.jpg">
             <div className="quote">
                 <p>Tony Viscount is a widower, a father and a restaurateur but has no idea where he came from, so helping his young son, Jamie, complete a family tree could be fun for both of them. But Tony doesn’t expect the tale of terror he uncovers, or that it could have followed him into the present.</p>
                 <p>What he discovers will change his life forever.</p>
                 <p>Assuming he gets to live it...</p>
             </div>
-            <p><i>Bloodline</i> was released in October 2022 on Amazon, and is available as an ebook or in paperback.</p>
+            <p><i>Bloodline</i> was released in October 2022 on Amazon, and is available as an ebook or in paperback. This is the first in the <i>Hidden Histories</i> series.</p>
             <a href="https://www.amazon.co.uk/Bloodline-Sharon-Francis/dp/1838117385/" target="_blank">
                 <div className="link-button">Buy on Amazon</div>
             </a>
