@@ -15,6 +15,16 @@ export default function DeniseSmith(){
                 <div className="link-button">Denise's Facebook</div>
             </a>
         </AuthorCard>
+        <BookCard title="Never Let Her Go" src="/never-let-her-go.jpg">
+            <div className="quote">
+                <p>Private Investigator Beatrice Styles is hot on the trail of a ruthless arsonist targeting a local brewery, but the stakes skyrocket when a charred body is discovered in the ruins of a pub. Who was the victim, and how did they meet such a violent end?</p>
+                <p>While the police are quick to pin the crime on a suspect, Beatrice senses something far more sinister at play. Determined to uncover the truth, she delves deeper into a tangled web of lies, secrets, and danger. As threats close in, Beatrice must decide: risk it all for justice, or walk away before she becomes the next target.</p>
+            </div>
+            <p><i>Never Let Her Go</i> was released in September 2024 on Amazon, and is available as an ebook or in paperback.</p>
+            <a href="https://www.amazon.co.uk/Never-Let-Lincolnshire-Mystery-Book/dp/B0DJ56ZN8H/" target="_blank">
+                <div className="link-button">Buy on Amazon</div>
+            </a>
+        </BookCard>
         <BookCard title="Never Forget, Never Forgive" src="/never-forget-never-forgive.jpg">
             <div className="quote">
                 <p>The death of her father and disappearance of her mother spurs Beatrice Styles into relocation and a change of career. However, her new venture in Lincoln, as a private investigator, takes an unexpected turn when she finds her first client dead.</p>

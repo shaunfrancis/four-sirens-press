@@ -22,14 +22,6 @@ const books = [
         link: "https://www.amazon.co.uk/What-Might-Have-Been-Limbo-ebook/dp/B09JHVNQ8R/"
     },
     {
-        title: "Never Forget, Never Forgive", src: "/never-forget-never-forgive.jpg", genres: ["crime"], 
-        link: "https://www.amazon.co.uk/Never-Forget-Forgive-Beatrice-Lincolnshire/dp/1838117369/"
-    },
-    {
-        title: "The Taboo Murders", src: "/the-taboo-murders.jpg", genres: ["crime"],
-        link: "https://www.amazon.co.uk/Taboo-Murders-Susan-Hughes-ebook/dp/B09MWMF9RP/"
-    },
-    {
         title: "Bloodline", src: "/bloodline.jpg", genres: ["crime"],
         link: "https://www.amazon.co.uk/Bloodline-Sharon-Francis/dp/1838117385/"
     },
@@ -40,7 +32,19 @@ const books = [
     {
         title: "A Kiss From France", src: "/a-kiss-from-france.jpg", genres: ["historic"],
         link: "https://www.amazon.co.uk/Kiss-France-Susan-Hughes-ebook/dp/B012W608GU"
-    }
+    },
+    {
+        title: "Never Forget, Never Forgive", src: "/never-forget-never-forgive.jpg", genres: ["crime"], 
+        link: "https://www.amazon.co.uk/Never-Forget-Forgive-Beatrice-Lincolnshire/dp/1838117369/"
+    },
+    {
+        title: "Never Let Her Go", src: "/never-let-her-go.jpg", genres: ["crime"], 
+        link: "https://www.amazon.co.uk/Never-Let-Lincolnshire-Mystery-Book/dp/B0DJ56ZN8H/"
+    },
+    {
+        title: "The Taboo Murders", src: "/the-taboo-murders.jpg", genres: ["crime"],
+        link: "https://www.amazon.co.uk/Taboo-Murders-Susan-Hughes-ebook/dp/B09MWMF9RP/"
+    },
 ]
 
 export default function Books() {
