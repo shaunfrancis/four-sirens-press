@@ -10,7 +10,7 @@ export const metadata : Metadata = {
 export default function DeniseSmith(){
     return ( <>
         <AuthorCard forename="Denise" surname="Smith" src="/denise.jpg" link={false}>
-            <p>Denise has always been an avid reader and since moving to North Devon has been able to devote time to her writing too. Denise's debut crime novel called <i>Never Forget, Never Forgive</i> was published on 1st October 2021 featuring private investigator Beatrice Styles.</p>
+            <p>Denise has always been an avid reader and since moving to North Devon has been able to devote time to her writing too. Denise's debut crime novel called <i>Never Forget, Never Forgive</i> was published on 1st October 2021 featuring private investigator Beatrice Styles. The second in the <i>Lincolnshire Mystery</i> series, <i>Never Let Her Go</i>, was released in September 2024.</p>
             <a href="https://facebook.com/writer.denise.smith/" target="_blank">
                 <div className="link-button">Denise's Facebook</div>
             </a>

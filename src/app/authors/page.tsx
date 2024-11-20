@@ -18,7 +18,7 @@ export default function Authors() {
         </AuthorCard>
 
         <AuthorCard forename="Denise" surname="Smith" src="/denise.jpg">
-            <p>Denise has always been an avid reader and since moving to North Devon has been able to devote time to her writing too. Denise's debut crime novel called <i>Never Forget, Never Forgive</i> was published on 1st October 2021 featuring private investigator Beatrice Styles.</p>
+            <p>Denise has always been an avid reader and since moving to North Devon has been able to devote time to her writing too. Denise's debut crime novel called <i>Never Forget, Never Forgive</i> was published on 1st October 2021 featuring private investigator Beatrice Styles. The second in the <i>Lincolnshire Mystery</i> series, <i>Never Let Her Go</i>, was released in September 2024.</p>
         </AuthorCard>
 
         <AuthorCard forename="Beverley" surname="Carter" src="/beverley.jpg" link={false}>
