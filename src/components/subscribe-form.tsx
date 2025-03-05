@@ -3,14 +3,14 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
-const genres : { title : string, value : string }[] = [
+const genres : { title : string, value : string }[] = [];/*[
     { title: "Rom-Com", value: "romcom" },
     { title: "Crime", value: "crime" },
     { title: "Historical", value: "historical" },
     { title: "Thriller", value: "thriller" },
     { title: "Dystopia", value: "dystopia" },
     { title: "Women's Fiction", value: "womensfiction" }
-]
+]*/
 
 export default function SubscribeForm(){
     const [checked, setChecked] = useState<string[]>([]);
@@ -32,7 +32,7 @@ export default function SubscribeForm(){
                 </div>
                 <div className="split-section-item">
                     <h2>Join Our Reader List</h2>
-                    <p>Thank you for your interest in Four Sirens Press. We send out a newsletter every month containing all the latest news, cover reveals and behind-the-scenes peeks. Tell us the genres you're interested in, and we'll also send you any extra news we think is right for you.</p>
+                    <p>Thank you for your interest in Four Sirens Press. We send out a newsletter every month containing all the latest news, cover reveals and behind-the-scenes peeks.</p>
                     <form id="subscribe-form" action="https://foursirenspress.us17.list-manage.com/subscribe/post" method="POST">
                         <input type="hidden" name="u" value="ff32ef21c73b8b7b916bf228e" />
                         <input type="hidden" name="id" value="ad64729692" />

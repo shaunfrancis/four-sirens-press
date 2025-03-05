@@ -10,14 +10,27 @@ export const metadata : Metadata = {
 export default function SharonFrancis(){
     return ( <>
         <AuthorCard forename="Sharon" surname="Francis" src="/sharon.jpg" link={false}>
-            <p>Born and bred in beautiful North Devon, Sharon is married with two grown-up children. She studied Creative Writing with the Open University, completing her BA in 2017. She writes across a range of genres, including her romantic comedy <i>Limbo</i> series titles <i>Girl Plans, God Laughs</i> and <i>What Might Have Been</i>, and her crime <i>Hidden Histories</i> series debut, <i>Bloodline</i>.</p>
-            <a href="https://twitter.com/SCFrancisAuthor">
-                <div className="link-button">Sharon's Twitter</div>
-            </a>
+            <p>Born and bred in beautiful North Devon, Sharon is married with two grown-up children. She studied Creative Writing with the Open University, completing her BA in 2017. She writes in multiple genres, including her romantic comedy <i>Limbo</i> series, <i>Girl Plans, God Laughs</i>, <i>What Might Have Been</i>, and <i>A Reason To Be</i>, and her <i>Hidden Histories</i> crime series titles, <i>Bloodline</i> and <i>Twisted Roots</i>.</p>
             <a href="https://facebook.com/pages/category/Author/Sharon-Francis-Author-110933057304441/">
                 <div className="link-button">Sharon's Facebook</div>
             </a>
+            <a href="https://twitter.com/SCFrancisAuthor">
+                <div className="link-button">Sharon's Twitter</div>
+            </a>
         </AuthorCard>
+
+        <BookCard title="A Reason To Be" src="/a-reason-to-be.jpg">
+            <div className="quote">
+                <p>When her beloved grandmother Audrey passes away, she leaves Daisy a heartfelt letter that shakes her world and makes her question her purpose in life.</p>
+                <p>As she navigates through her grief, and the chaos of her mother Lizzy's reappearance, Daisy learns that love and wisdom transcend generations in unexpected ways, leading her on a journey of self-discovery and romance.</p>
+                <p>Through it all, can Daisy find her reason to be?</p>
+            </div>
+            <p><i>A Reason To Be</i> was released in December 2024 on Amazon, and is available as an ebook or in paperback. This is the third in the <i>Limbo</i> series.</p>
+            <a href="https://www.amazon.co.uk/Reason-Limbo-Mrs-Sharon-Francis/dp/B0DP9SFKGK/" target="_blank">
+                <div className="link-button">Buy on Amazon</div>
+            </a>
+        </BookCard>
+
         <BookCard title="Twisted Roots" src="/twisted-roots.jpg">
             <div className="quote">
                 <p>When Emily agrees to handle her late uncle's estate, it seems the perfect escape from her troubled marriage and her father's ill health. But as she delves deeper into her uncle's history, a troubling pattern of broken relationships and mysterious disappearances are revealed.</p>

@@ -10,7 +10,7 @@ export default function Authors() {
   return (
     <main>
         <AuthorCard forename="Sharon" surname="Francis" src="/sharon.jpg">
-            <p>Born and bred in beautiful North Devon, Sharon is married with two grown-up children. She studied Creative Writing with the Open University, completing her BA in 2017. She writes across a range of genres, including her romantic comedy <i>Limbo</i> series titles <i>Girl Plans, God Laughs</i> and <i>What Might Have Been</i>, and her crime <i>Hidden Histories</i> series debut, <i>Bloodline</i>.</p>
+            <p>Born and bred in beautiful North Devon, Sharon is married with two grown-up children. She studied Creative Writing with the Open University, completing her BA in 2017. She writes in multiple genres, including her romantic comedy <i>Limbo</i> series, <i>Girl Plans, God Laughs</i>, <i>What Might Have Been</i>, and <i>A Reason To Be</i>, and her <i>Hidden Histories</i> crime series titles, <i>Bloodline</i> and <i>Twisted Roots</i>.</p>
         </AuthorCard>
 
         <AuthorCard forename="Susan" surname="Hughes" src="/sue.jpg">

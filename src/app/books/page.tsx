@@ -30,6 +30,10 @@ const books = [
         link: "https://www.amazon.co.uk/Twisted-Hidden-Histories-Sharon-Francis/dp/B0CN31P4X9/"
     },
     {
+        title: "A Reason To Be", src: "/a-reason-to-be.jpg", genres: ["romcom"],
+        link: "https://www.amazon.co.uk/Reason-Limbo-Mrs-Sharon-Francis/dp/B0DP9SFKGK"
+    },
+    {
         title: "A Kiss From France", src: "/a-kiss-from-france.jpg", genres: ["historic"],
         link: "https://www.amazon.co.uk/Kiss-France-Susan-Hughes-ebook/dp/B012W608GU"
     },
