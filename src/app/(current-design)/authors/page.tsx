@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-import AuthorCard from '@/components/author-card';
+import AuthorCard from '@/app/(current-design)/components/author-card';
 
 export const metadata : Metadata = {
     title: 'Authors | Four Sirens Press'

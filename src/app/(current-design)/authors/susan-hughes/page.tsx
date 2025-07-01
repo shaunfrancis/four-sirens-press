@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
-import AuthorCard from '@/components/author-card';
-import BookCard from '@/components/book-card';
+import AuthorCard from '@/app/(current-design)/components/author-card';
+import BookCard from '@/app/(current-design)/components/book-card';
 
 export const metadata : Metadata = {
     title: 'Susan Hughes | Four Sirens Press'

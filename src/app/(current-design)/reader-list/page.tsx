@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-import SubscribeForm from '@/components/subscribe-form';
+import SubscribeForm from '@/app/(current-design)/components/subscribe-form';
 
 export const metadata : Metadata = {
     title: 'Reader List | Four Sirens Press'

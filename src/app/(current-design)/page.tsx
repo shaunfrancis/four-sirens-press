@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-import SubscribeForm from '@/components/subscribe-form';
-import ContactCard from '@/components/contact-card';
+import SubscribeForm from '@/app/(current-design)/components/subscribe-form';
+import ContactCard from '@/app/(current-design)/components/contact-card';
 
 export default function Home() {
   return (
