@@ -46,6 +46,10 @@ const books = [
         link: "https://www.amazon.co.uk/Never-Let-Lincolnshire-Mystery-Book/dp/B0DJ56ZN8H/"
     },
     {
+        title: "Never Really Knew You", src: "/never-really-knew-you.jpg", genres: ["crime"], 
+        link: "https://www.amazon.co.uk/gp/product/B0GCDQVM3J"
+    },
+    {
         title: "The Taboo Murders", src: "/the-taboo-murders.jpg", genres: ["crime"],
         link: "https://www.amazon.co.uk/Taboo-Murders-Susan-Hughes-ebook/dp/B09MWMF9RP/"
     },

@@ -14,7 +14,21 @@ export default function DeniseSmith(){
             <a href="https://facebook.com/writer.denise.smith/" target="_blank">
                 <div className="link-button">Denise's Facebook</div>
             </a>
-        </AuthorCard>
+        </AuthorCard>        
+        <BookCard title="Never Really Knew You" src="/never-really-knew-you.jpg">
+            <div className="quote">
+                <p>Anonymous letters. A dying man. And a truth that refuses to stay buried.</p>
+                <p>Private investigator Beatrice Styles is hired to uncover who has been sending disturbing letters to a woman, accusing her terminally ill husband of infidelity. With no clear suspects and no obvious motive, the case seems to lead nowhere.</p>
+                <p>Then the husband dies - sooner than expected.</p>
+                <p>As the police begin to question what really happened, Beatrice is drawn deeper into a web of suspicion, resentment, and hidden agendas. Because someone has already begun to shape the story… and they're not finished yet.</p>
+                <p>The closer Beatrice gets to the truth, the clearer it becomes that uncovering it may come at a cost.</p>
+                <p>And this time, the consequences will reach far beyond the victim.</p>
+            </div>
+            <p><i>Never Really Knew You</i> was released in December 2025 on Amazon, and is available as an ebook or in paperback.</p>
+            <a href="https://www.amazon.co.uk/gp/product/B0GCDQVM3J" target="_blank">
+                <div className="link-button">Buy on Amazon</div>
+            </a>
+        </BookCard>
         <BookCard title="Never Let Her Go" src="/never-let-her-go.jpg">
             <div className="quote">
                 <p>Private Investigator Beatrice Styles is hot on the trail of a ruthless arsonist targeting a local brewery, but the stakes skyrocket when a charred body is discovered in the ruins of a pub. Who was the victim, and how did they meet such a violent end?</p>
